@@ -10,7 +10,12 @@
   "scripts": {
     "start": "node ./bin/licenjs"
   },
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/joshleaves/licenjs.git"
+  },
   "keywords": [
+    "cli",
     "license"
   ],
   "dependencies" : {
