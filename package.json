@@ -1,0 +1,23 @@
+{
+  "name": "licenjs",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "author": "JoshLeaves <josh.guthrie@gmail.com",
+  "description": "licenjs generates license files",
+  "bin": {
+    "licenjs": "./bin/licenjs"
+  },
+  "scripts": {
+    "start": "node ./bin/licenjs"
+  },
+  "keywords": [
+    "license"
+  ],
+  "dependencies" : {
+    "commander" : "1.1.1"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8"
+  }
+}
