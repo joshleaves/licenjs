@@ -1,14 +1,14 @@
 {
   "name": "licenjs",
   "preferGlobal": true,
-  "version": "0.1.0",
+  "version": "0.1.2",
   "author": "JoshLeaves <josh.guthrie@gmail.com",
   "description": "licenjs generates license files",
   "bin": {
-    "licenjs": "./bin/licenjs"
+    "licenjs": "./bin/licenjs.js"
   },
   "scripts": {
-    "start": "node ./bin/licenjs"
+    "start": "node ./bin/licenjs.js"
   },
   "repository" : {
     "type": "git",

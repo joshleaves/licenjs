@@ -67,17 +67,21 @@ Great! Is it a license that is commonly used? If so, open an issue or, if you ar
     optional arguments:
       -h, --help            show this help message and exit
       -o ORGANIZATION, --org ORGANIZATION
-                            organization, defaults to .gitconfig or
-                            os.environ["USER"]
+                            organization, defaults to process.env.USER
       -p PROJECT, --proj PROJECT
                             name of project, defaults to name of current directory
       -t TEMPLATE_PATH, --template TEMPLATE_PATH
-                            path to license template file
+                            path to license template file (not even remotely implemented)
       -y YEAR, --year YEAR  copyright year
       --vars                list template variables for specified license
 
 
 ## Changelog
+
+
+### 0.1.2
+
+* Minor fixes
 
 ### 0.1
 
